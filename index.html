@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link google fonts (font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <linkhref="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet">
+    <!-- link untuk Font Awesome/ Logo -->
+    <link rel="stylesheet" href="assets/FontAwesome/css/all.css" />
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- jsApp -->
+    <script src="src/app.js"></script>
+    <title>Kopi kenangan</title>
+</head>
+<body>
+    <header class="navbar">
+        <a href="#" class="navbar-logo">kenangan<span>kopi</span>.</a>
+        <nav class="navbar-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#products">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="navbar-extra">
+            <a href="#" id="search-button"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" id="shopping-cart-button"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#" id="hamburger-menu"><i class="fa-solid fa-bars"></i></a>
+        </section>
+
+        <!-- Search form star -->
+        <section class="search-form">
+            <input type="search" id="search-box" placeholder="Cari disuni...">
+            <label for="search-box"><i class="fa-solid fa-magnifying-glass"></i></label>
+        </section>
+        <!-- Search form end -->
+
+        <!-- shopping card star -->
+        <section class="shopping-cart">
+            <figure class="cart-item">
+                <img src="img/product/1.jpg" alt="procuct1">
+                <figcaption class="item-detail">
+                    <h3>Coffe Bean</h3>
+                    <div class="item-price">IDR 30K</div>
+                </figcaption>
+                <i class="fa-solid fa-trash-can" class="remove-item"></i>
+            </figure>
+            <figure class="cart-item">
+                <img src="img/product/1.jpg" alt="procuct1">
+                <figcaption class="item-detail">
+                    <h3>Coffe Bean</h3>
+                    <div class="item-price">IDR 30K</div>
+                </figcaption>
+                <i class="fa-solid fa-trash-can" class="remove-item"></i>
+            </figure>
+            <figure class="cart-item">
+                <img src="img/product/1.jpg" alt="procuct1">
+                <figcaption class="item-detail">
+                    <h3>Coffe Bean</h3>
+                    <div class="item-price">IDR 30K</div>
+                </figcaption>
+                <i class="fa-solid fa-trash-can" class="remove-item"></i>
+            </figure>
+        </section>
+        <!-- shopping card end -->
+    </header>
+
+    <main>
+        <!-- hero star -->
+        <section class="hero" id="home">
+            <article class="content">
+                <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+                <p>Sebuah cangkir, seribu kenangan kopi yang
+                    menghantarimu pada perjalanan rasa, kelembutan 
+                    kopi menyentuh jiwa.
+                </p>
+                <a href="#products" class="cta">Beli Sekarang</a>
+            </article>
+        </section>
+        <!-- hero end -->
+
+        <!-- about star -->
+        <section class="about" id="about">
+            <h2><span>Tentang </span>Kami</h2>
+            <article class="row">
+                <div class="about-img">
+                    <img src="img/Tentangkami.jpg" alt="tentang kammi">
+                </div>
+                <div class="content">
+                    <h3>Kenapa harus kopi kami ?</h3>
+                    <p>karena kopi kami menggunakan bahan-bahan 
+                        yang asli dan terjamin kualitasnya dan 
+                        di ambil dari kebun sendiri.
+                    </p>
+                    <p>Selain itu kopi kami juga sudah bersertifikat halal 
+                        dan teruji oleh BPOM. Sudah banyak orang yang mencoba 
+                        kokpi kami dan tidak sedikit dari mereka ketagihan, jadi 
+                        tunggu apa lagi langsung datang sekarang
+                    </p>
+                </div>
+            </article>
+        </section>
+        <!-- about end -->
+
+        <!-- menu star -->
+        <section id="menu" class="menu">
+            <h2><span>Menu</span> Kami</h2>
+            <p>Kami menyediakan beberapa Menu Terbaik kami, menu ini selalu habis digemari, untuk lebih 
+                jelasnya bisa di lihat di bawah ini : 
+            </p>
+            <article class="row">
+                <div class="menu-card">
+                    <img src="img/menu/1.jpg" alt="espresso"
+                    class="menu-card-img">
+                    <h3 class="menu-card-title">
+                        ~ Espresso ~
+                    </h3>
+                    <p class="menu-card-price">IDR 15K</p>
+                </div>
+                <div class="menu-card">
+                    <img src="img/menu/2.jpg" alt="espresso"
+                    class="menu-card-img">
+                    <h3 class="menu-card-title">
+                        ~ Coffe Late ~
+                    </h3>
+                    <p class="menu-card-price">IDR 13K</p>
+                </div>
+                <div class="menu-card">
+                    <img src="img/menu/3.jpg" alt="espresso"
+                    class="menu-card-img">
+                    <h3 class="menu-card-title">
+                        ~ Goldda Coffe ~
+                    </h3>
+                    <p class="menu-card-price">IDR 10K</p>
+                </div>
+                <div class="menu-card">
+                    <img src="img/menu/4.jpg" alt="espresso"
+                    class="menu-card-img">
+                    <h3 class="menu-card-title">
+                        ~ Espresso Milk~
+                    </h3>
+                    <p class="menu-card-price">IDR 15K</p>
+                </div>
+                <div class="menu-card">
+                    <img src="img/menu/4.jpg" alt="espresso"
+                    class="menu-card-img">
+                    <h3 class="menu-card-title">
+                        ~ Espresso Milk~
+                    </h3>
+                    <p class="menu-card-price">IDR 15K</p>
+                </div>
+            </article>
+        </section>
+        <!-- menu end -->
+
+        <!-- product star -->
+        <section class="products" id="products" x-data="products">
+            <h2><span>Product Unggulan</span> Kami</h2>
+            <p>Kami menjual beberapa produk unggulan kami,
+                jika anda berminat boleh di lihat di bawah ini :
+            </p>
+            <article class="row">
+                <template x-for="(item, index) in items" x-key="index">
+                    <div class="product-card">
+                    <div class="product-icons">
+                        <a href="#product"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#product" class="item-detail-button" @click.prevent="$store.cart.add(item)"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                    <div class="product-img">
+                        <img :src="`img/product/${item.img}`" :alt="item.name">
+                    </div>
+                    <div class="product-content">
+                        <h3 x-text="item.name"></h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="product-price" x-text="rupiah(item.price)"></div>
+                    </div>
+                    </div>
+                </template>
+            </article>
+        </section>
+        <!-- product end -->
+
+        <!-- contact star -->
+        <section id="contact" class="contact">
+            <h2><span>Kontak</span> Kami</h2>
+            <p>Jika ingin memesan silahkan hubungi kami,dan bila anda ingin bertanya-tanya mengenai
+                kedai kopi kami silahkan Kontak kami di bawah ini : 
+            </p>
+            <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60965064788!2d107.56075490416707!3d-6.
+            903271951728813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung
+            %2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1721742490643!5m2!1sid!2sid" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map">
+            </iframe>
+            <form action="form.html">
+                <div class="input-group">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" placeholder="Masukan Nama" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="text" placeholder="Masukan E-mail" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" placeholder="No.handphone" required>
+                </div>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+            </div>
+        </section>
+        <!-- contact end -->
+    </main>
+
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/reel/C9wqf4IhcOP/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i><a>
+            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2F%3Flang%3Did&psig=AOvVaw3KDu
+            jvw4S7yiFoA-GREUKt&ust=1721888253267000&source=images&cd=vfe&opi=89978449&ved=0CAcQr5oMahcKEwiYgo_hg7-HAxUAAAAAHQAAAAAQBA" target="_blank"><i class="fa-brands fa-x-twitter"></i><a>
+            <a href="https://youtube.com/shorts/uk64HLEbWiU?si=zFZAqzhwI85QmewS" target="_blank"><i class="fa-brands fa-square-youtube"></i><a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Product</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="">Rijal Pratama</a>
+            . &copy 2024</p>
+        </div>
+    </footer>
+
+    <!-- link JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
